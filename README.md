@@ -15,7 +15,7 @@ I am an Analytics Engineer and Senior Data Analyst in Ho Chi Minh City. I build 
 <p align="center">
   <a href="https://www.linkedin.com/in/tloc0402/"><img src="https://img.shields.io/badge/LinkedIn-tloc0402-0f766e?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:tloc0402@gmail.com"><img src="https://img.shields.io/badge/Email-tloc0402%40gmail.com-134e4a?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/loctu0402/saola-data-platform"><img src="https://img.shields.io/badge/Portfolio-saola--data--platform-1e293b?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://github.com/loctu0402/loctu-data-platform"><img src="https://img.shields.io/badge/Portfolio-loctu--data--platform-1e293b?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
 <p align="center">
@@ -45,7 +45,7 @@ I am an Analytics Engineer and Senior Data Analyst in Ho Chi Minh City. I build 
 
 | Project | What it delivers |
 |---|---|
-| [saola-data-platform](https://github.com/loctu0402/saola-data-platform) | A complete analytics platform on BigQuery: dbt models under enforced contracts, Cube, Airflow, a daily report checked against expected values, an agent knowledge base with golden evals, and CI that tests only what a change touches. |
+| [loctu-data-platform](https://github.com/loctu0402/loctu-data-platform) | A complete analytics platform on BigQuery: dbt models under enforced contracts, Cube, Airflow, a daily report checked against expected values, an agent knowledge base with golden evals, and CI that tests only what a change touches. |
 | [airflow-snowflake-testbed](https://github.com/loctu0402/airflow-snowflake-testbed) | Production-shaped test environments for Snowflake and Airflow: a zero-copy clone per branch, a per-branch Airflow behind Cloudflare, and task or DAG tests without opening the UI. |
 | [prof-DA](https://github.com/loctu0402/prof-DA) | A Claude Code plugin that runs the analyst workflow, from framing the question to a reviewed stakeholder report. |
 | [agent-analytic-package](https://github.com/loctu0402/agent-analytic-package) | A standard that keeps analytics agents to a certified knowledge base, released only after a golden evaluation set passes. |
