@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <style>
+    .card{fill:#111a2e;stroke-width:1.3}
+    .t{fill:#f1f5f9;font-size:14px;font-weight:700}
+    .s{fill:#94a3b8;font-size:11.5px}
+    .h{font-size:11px;font-weight:700;letter-spacing:.08em}
+    .wire{fill:none;stroke-width:1.6;stroke-opacity:.5}
+  </style>
+  <rect width="1000" height="300" rx="18" fill="#0b1220"/>
+  <text x="28" y="40" class="h" fill="#94a3b8">HOW I WORK · ONE NUMBER, DEFINED ONCE, TRUSTED BY PEOPLE AND AGENTS</text>
+
+  <path id="a" class="wire" stroke="#f59e0b" d="M186,120 L222,120"/>
+  <path id="b" class="wire" stroke="#38bdf8" d="M380,120 L416,120"/>
+  <path id="c" class="wire" stroke="#facc15" d="M574,120 L610,120"/>
+  <path id="d1" class="wire" stroke="#c084fc" d="M768,120 C786,120 786,82 804,82"/>
+  <path id="d2" class="wire" stroke="#c084fc" d="M768,120 L804,120"/>
+  <path id="d3" class="wire" stroke="#c084fc" d="M768,120 C786,120 786,158 804,158"/>
+  <circle r="3.4" fill="#fbbf24"><animateMotion dur="1.3s" repeatCount="indefinite"><mpath href="#a"/></animateMotion></circle>
+  <circle r="3.4" fill="#7dd3fc"><animateMotion dur="1.3s" begin=".35s" repeatCount="indefinite"><mpath href="#b"/></animateMotion></circle>
+  <circle r="3.4" fill="#fde047"><animateMotion dur="1.3s" begin=".7s" repeatCount="indefinite"><mpath href="#c"/></animateMotion></circle>
+  <circle r="3.4" fill="#d8b4fe"><animateMotion dur="1.3s" begin="1.05s" repeatCount="indefinite"><mpath href="#d1"/></animateMotion></circle>
+  <circle r="3.4" fill="#d8b4fe"><animateMotion dur="1.3s" begin="1.2s" repeatCount="indefinite"><mpath href="#d2"/></animateMotion></circle>
+  <circle r="3.4" fill="#d8b4fe"><animateMotion dur="1.3s" begin="1.35s" repeatCount="indefinite"><mpath href="#d3"/></animateMotion></circle>
+
+  <rect class="card" stroke="#f59e0b" x="28" y="66" width="158" height="108" rx="12"/>
+  <text x="42" y="92" class="t">Frame</text>
+  <text x="42" y="114" class="s">The business question,</text>
+  <text x="42" y="131" class="s">each metric with its</text>
+  <text x="42" y="148" class="s">grain and denominator</text>
+
+  <rect class="card" stroke="#38bdf8" x="222" y="66" width="158" height="108" rx="12"/>
+  <text x="236" y="92" class="t">Model</text>
+  <text x="236" y="114" class="s">dbt on BigQuery and</text>
+  <text x="236" y="131" class="s">Snowflake, medallion</text>
+  <text x="236" y="148" class="s">layers, Airflow</text>
+
+  <rect class="card" stroke="#facc15" x="416" y="66" width="158" height="108" rx="12"/>
+  <text x="430" y="92" class="t">Govern</text>
+  <text x="430" y="114" class="s">Contracts, tests,</text>
+  <text x="430" y="131" class="s">freshness SLAs and</text>
+  <text x="430" y="148" class="s">reconcile to source</text>
+
+  <rect class="card" stroke="#c084fc" x="610" y="66" width="158" height="108" rx="12"/>
+  <text x="624" y="92" class="t">Define once</text>
+  <text x="624" y="114" class="s">Semantic layer and a</text>
+  <text x="624" y="131" class="s">knowledge base shared</text>
+  <text x="624" y="148" class="s">by people and agents</text>
+
+  <rect class="card" stroke="#34d399" x="804" y="66" width="168" height="32" rx="10"/>
+  <text x="818" y="87" class="t">Dashboards</text>
+  <rect class="card" stroke="#34d399" x="804" y="104" width="168" height="32" rx="10"/>
+  <text x="818" y="125" class="t">Daily reports</text>
+  <rect class="card" stroke="#34d399" x="804" y="142" width="168" height="32" rx="10"/>
+  <text x="818" y="163" class="t">AI analytics agents</text>
+
+  <rect x="28" y="200" width="944" height="72" rx="12" fill="#0f1a2c" stroke="#334155"/>
+  <text x="44" y="224" class="h" fill="#34d399">WHAT CHANGES FOR THE TEAM</text>
+  <text x="44" y="246" class="s">Dashboards, the morning report and the agent read the same definitions, so they return the same number.</text>
+  <text x="44" y="264" class="s">An agent answers only what the knowledge base covers and a golden set has checked; anything new goes to an analyst.</text>
+</svg>
