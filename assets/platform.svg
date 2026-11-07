@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 612" width="1200" height="612" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#141d30" stroke-width="1"/></pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#0a1626"/></linearGradient>
+    <linearGradient id="ctl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .card{fill:#101a2d;stroke-width:1.4}
+    .chip{fill:#0c1526;stroke:#22304a;stroke-width:1}
+    .t{fill:#f1f5f9;font-size:15px;font-weight:700}
+    .c{fill:#cbd5e1;font-size:12px}
+    .s{fill:#94a3b8;font-size:11.5px}
+    .h{font-size:11.5px;font-weight:700;letter-spacing:.09em}
+    .wire{fill:none;stroke-width:1.8;stroke-opacity:.55}
+  </style>
+  <rect width="1200" height="612" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="612" rx="20" fill="url(#grid)" opacity=".55"/>
+  <text x="30" y="46" class="h" fill="#2dd4bf">HOW I BUILD</text>
+  <text x="130" y="46" class="h" fill="#94a3b8">DATA PLATFORMS, ENGINEERED LIKE SOFTWARE</text>
+  <text x="30" y="84" class="h" fill="#64748b">DATA PLANE · RAW EVENTS TO METRICS PEOPLE AND AGENTS TRUST</text>
+  <path id="d0" class="wire" stroke="#f59e0b" d="M226,196 L266,196"/>
+  <circle r="3.4" fill="#fbbf24" filter="url(#glow)"><animateMotion dur="1.5s" begin="0.00s" repeatCount="indefinite"><mpath href="#d0"/></animateMotion></circle>
+  <circle r="3.4" fill="#fbbf24" filter="url(#glow)"><animateMotion dur="1.5s" begin="0.50s" repeatCount="indefinite"><mpath href="#d0"/></animateMotion></circle>
+  <circle r="3.4" fill="#fbbf24" filter="url(#glow)"><animateMotion dur="1.5s" begin="1.00s" repeatCount="indefinite"><mpath href="#d0"/></animateMotion></circle>
+  <path id="d1" class="wire" stroke="#38bdf8" d="M462,196 L502,196"/>
+  <circle r="3.4" fill="#7dd3fc" filter="url(#glow)"><animateMotion dur="1.5s" begin="0.30s" repeatCount="indefinite"><mpath href="#d1"/></animateMotion></circle>
+  <circle r="3.4" fill="#7dd3fc" filter="url(#glow)"><animateMotion dur="1.5s" begin="0.80s" repeatCount="indefinite"><mpath href="#d1"/></animateMotion></circle>
+  <circle r="3.4" fill="#7dd3fc" filter="url(#glow)"><animateMotion dur="1.5s" begin="1.30s" repeatCount="indefinite"><mpath href="#d1"/></animateMotion></circle>
+  <path id="d2" class="wire" stroke="#facc15" d="M698,196 L738,196"/>
+  <circle r="3.4" fill="#fde047" filter="url(#glow)"><animateMotion dur="1.5s" begin="0.60s" repeatCount="indefinite"><mpath href="#d2"/></animateMotion></circle>
+  <circle r="3.4" fill="#fde047" filter="url(#glow)"><animateMotion dur="1.5s" begin="1.10s" repeatCount="indefinite"><mpath href="#d2"/></animateMotion></circle>
+  <circle r="3.4" fill="#fde047" filter="url(#glow)"><animateMotion dur="1.5s" begin="1.60s" repeatCount="indefinite"><mpath href="#d2"/></animateMotion></circle>
+  <path id="d3" class="wire" stroke="#c084fc" d="M934,196 L974,196"/>
+  <circle r="3.4" fill="#d8b4fe" filter="url(#glow)"><animateMotion dur="1.5s" begin="0.90s" repeatCount="indefinite"><mpath href="#d3"/></animateMotion></circle>
+  <circle r="3.4" fill="#d8b4fe" filter="url(#glow)"><animateMotion dur="1.5s" begin="1.40s" repeatCount="indefinite"><mpath href="#d3"/></animateMotion></circle>
+  <circle r="3.4" fill="#d8b4fe" filter="url(#glow)"><animateMotion dur="1.5s" begin="1.90s" repeatCount="indefinite"><mpath href="#d3"/></animateMotion></circle>
+  <rect class="card" stroke="#f59e0b" x="30" y="98" width="196" height="196" rx="14"/>
+  <circle cx="50" cy="122" r="4.5" fill="#fbbf24" filter="url(#glow)"><animate attributeName="opacity" values="1;.35;1" dur="2.4s" begin="0.0s" repeatCount="indefinite"/></circle>
+  <text x="62" y="127" class="t">Sources</text>
+  <rect class="chip" x="42" y="144" width="172" height="27" rx="7"/>
+  <text x="54" y="162" class="c">App events</text>
+  <rect class="chip" x="42" y="179" width="172" height="27" rx="7"/>
+  <text x="54" y="197" class="c">Payments ledger</text>
+  <rect class="chip" x="42" y="214" width="172" height="27" rx="7"/>
+  <text x="54" y="232" class="c">POS and delivery</text>
+  <rect class="chip" x="42" y="249" width="172" height="27" rx="7"/>
+  <text x="54" y="267" class="c">ERP and staffing</text>
+  <rect class="card" stroke="#38bdf8" x="266" y="98" width="196" height="196" rx="14"/>
+  <circle cx="286" cy="122" r="4.5" fill="#7dd3fc" filter="url(#glow)"><animate attributeName="opacity" values="1;.35;1" dur="2.4s" begin="0.4s" repeatCount="indefinite"/></circle>
+  <text x="298" y="127" class="t">Ingest</text>
+  <rect class="chip" x="278" y="144" width="172" height="27" rx="7"/>
+  <text x="290" y="162" class="c">Airflow 3 DAGs</text>
+  <rect class="chip" x="278" y="179" width="172" height="27" rx="7"/>
+  <text x="290" y="197" class="c">Incremental loads</text>
+  <rect class="chip" x="278" y="214" width="172" height="27" rx="7"/>
+  <text x="290" y="232" class="c">Freshness SLAs</text>
+  <rect class="chip" x="278" y="249" width="172" height="27" rx="7"/>
+  <text x="290" y="267" class="c">Alerts to chat</text>
+  <rect class="card" stroke="#facc15" x="502" y="98" width="196" height="196" rx="14"/>
+  <circle cx="522" cy="122" r="4.5" fill="#fde047" filter="url(#glow)"><animate attributeName="opacity" values="1;.35;1" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+  <text x="534" y="127" class="t">Warehouse</text>
+  <rect class="chip" style="stroke:#facc15;stroke-opacity:.55" x="514" y="144" width="172" height="27" rx="7"/>
+  <text x="526" y="162" class="c">Bronze: raw, as landed</text>
+  <rect class="chip" style="stroke:#facc15;stroke-opacity:.55" x="514" y="179" width="172" height="27" rx="7"/>
+  <text x="526" y="197" class="c">Silver: clean, conformed</text>
+  <rect class="chip" style="stroke:#facc15;stroke-opacity:.55" x="514" y="214" width="172" height="27" rx="7"/>
+  <text x="526" y="232" class="c">Gold: marts + contracts</text>
+  <rect class="chip" x="514" y="249" width="172" height="27" rx="7"/>
+  <text x="526" y="267" class="c">BigQuery and Snowflake</text>
+  <rect x="514" y="144" width="172" height="97" rx="7" fill="#facc15" opacity="0"><animate attributeName="opacity" values="0;.10;0" dur="3s" repeatCount="indefinite"/></rect>
+  <rect class="card" stroke="#c084fc" x="738" y="98" width="196" height="196" rx="14"/>
+  <circle cx="758" cy="122" r="4.5" fill="#d8b4fe" filter="url(#glow)"><animate attributeName="opacity" values="1;.35;1" dur="2.4s" begin="1.2s" repeatCount="indefinite"/></circle>
+  <text x="770" y="127" class="t">Define once</text>
+  <rect class="chip" x="750" y="144" width="172" height="27" rx="7"/>
+  <text x="762" y="162" class="c">Cube semantic layer</text>
+  <rect class="chip" x="750" y="179" width="172" height="27" rx="7"/>
+  <text x="762" y="197" class="c">Cortex semantic views</text>
+  <rect class="chip" x="750" y="214" width="172" height="27" rx="7"/>
+  <text x="762" y="232" class="c">Metric knowledge base</text>
+  <rect class="chip" x="750" y="249" width="172" height="27" rx="7"/>
+  <text x="762" y="267" class="c">Golden eval set</text>
+  <rect class="card" stroke="#34d399" x="974" y="98" width="196" height="196" rx="14"/>
+  <circle cx="994" cy="122" r="4.5" fill="#6ee7b7" filter="url(#glow)"><animate attributeName="opacity" values="1;.35;1" dur="2.4s" begin="1.6s" repeatCount="indefinite"/></circle>
+  <text x="1006" y="127" class="t">Serve</text>
+  <rect class="chip" x="986" y="144" width="172" height="27" rx="7"/>
+  <text x="998" y="162" class="c">BI dashboards</text>
+  <rect class="chip" x="986" y="179" width="172" height="27" rx="7"/>
+  <text x="998" y="197" class="c">Daily reports vs expected</text>
+  <rect class="chip" x="986" y="214" width="172" height="27" rx="7"/>
+  <text x="998" y="232" class="c">AI analytics agents</text>
+  <rect class="chip" x="986" y="249" width="172" height="27" rx="7"/>
+  <text x="998" y="267" class="c">Self-serve SQL</text>
+  <text x="30" y="346" class="h" fill="#64748b">CONTROL PLANE · EVERY CHANGE SHIPS LIKE SOFTWARE</text>
+  <path id="p0" class="wire" stroke="#2dd4bf" d="M200,393 L224,393"/>
+  <circle r="3.2" fill="#5eead4" filter="url(#glow)"><animateMotion dur="1.1s" begin="0.00s" repeatCount="indefinite"><mpath href="#p0"/></animateMotion></circle>
+  <path id="p1" class="wire" stroke="#2dd4bf" d="M394,393 L418,393"/>
+  <circle r="3.2" fill="#5eead4" filter="url(#glow)"><animateMotion dur="1.1s" begin="0.22s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
+  <path id="p2" class="wire" stroke="#2dd4bf" d="M588,393 L612,393"/>
+  <circle r="3.2" fill="#5eead4" filter="url(#glow)"><animateMotion dur="1.1s" begin="0.44s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+  <path id="p3" class="wire" stroke="#2dd4bf" d="M782,393 L806,393"/>
+  <circle r="3.2" fill="#5eead4" filter="url(#glow)"><animateMotion dur="1.1s" begin="0.66s" repeatCount="indefinite"><mpath href="#p3"/></animateMotion></circle>
+  <path id="p4" class="wire" stroke="#2dd4bf" d="M976,393 L1000,393"/>
+  <circle r="3.2" fill="#5eead4" filter="url(#glow)"><animateMotion dur="1.1s" begin="0.88s" repeatCount="indefinite"><mpath href="#p4"/></animateMotion></circle>
+  <rect x="30" y="360" width="170" height="66" rx="12" fill="#0e1a2b" stroke="url(#ctl)" stroke-width="1.4"/>
+  <text x="44" y="387" class="t" style="font-size:14px">Commit</text>
+  <text x="44" y="408" class="s">one branch per change</text>
+  <rect x="224" y="360" width="170" height="66" rx="12" fill="#0e1a2b" stroke="url(#ctl)" stroke-width="1.4"/>
+  <text x="238" y="387" class="t" style="font-size:14px">Detect impact</text>
+  <text x="238" y="408" class="s">models plus downstream</text>
+  <rect x="418" y="360" width="170" height="66" rx="12" fill="#0e1a2b" stroke="url(#ctl)" stroke-width="1.4"/>
+  <text x="432" y="387" class="t" style="font-size:14px">Lint, gate, test</text>
+  <text x="432" y="408" class="s">SQLFluff, contracts, tests</text>
+  <rect x="612" y="360" width="170" height="66" rx="12" fill="#0e1a2b" stroke="url(#ctl)" stroke-width="1.4"/>
+  <text x="626" y="387" class="t" style="font-size:14px">Golden eval</text>
+  <text x="626" y="408" class="s">answers checked vs truth</text>
+  <rect x="806" y="360" width="170" height="66" rx="12" fill="#0e1a2b" stroke="url(#ctl)" stroke-width="1.4"/>
+  <text x="820" y="387" class="t" style="font-size:14px">Owner approval</text>
+  <text x="820" y="408" class="s">CODEOWNERS per area</text>
+  <rect x="1000" y="360" width="170" height="66" rx="12" fill="#0e1a2b" stroke="url(#ctl)" stroke-width="1.4"/>
+  <text x="1014" y="387" class="t" style="font-size:14px">Deploy</text>
+  <text x="1014" y="408" class="s">VM runner, atomic swap</text>
+  <rect x="30" y="360" width="170" height="66" rx="12" fill="none" stroke="#5eead4" stroke-width="2"><animate attributeName="x" values="30;224;418;612;806;1000" dur="6s" calcMode="discrete" repeatCount="indefinite"/></rect>
+  <path id="ship" d="M1085,360 C1085,318 660,332 600,294" fill="none" stroke="#2dd4bf" stroke-width="1.6" stroke-dasharray="6 6" stroke-opacity=".8"><animate attributeName="stroke-dashoffset" values="0;-24" dur="1s" repeatCount="indefinite"/></path>
+  <text x="850" y="309" class="s" style="fill:#5eead4">ships DAGs, models and metrics</text>
+  <rect x="30" y="456" width="364" height="120" rx="14" fill="#0f1a2c" stroke="#334155"/>
+  <rect x="30" y="456" width="4" height="120" rx="2" fill="#2dd4bf"/>
+  <text x="50" y="490" class="t">Proven before merge</text>
+  <text x="50" y="518" class="c">Each branch runs on a zero-copy clone of</text>
+  <text x="50" y="538" class="c">production, so every change is tested on real data.</text>
+  <rect x="418" y="456" width="364" height="120" rx="14" fill="#0f1a2c" stroke="#334155"/>
+  <rect x="418" y="456" width="4" height="120" rx="2" fill="#2dd4bf"/>
+  <text x="438" y="490" class="t">Quality gates on every change</text>
+  <text x="438" y="518" class="c">Contracts and impact-aware CI catch a breaking</text>
+  <text x="438" y="538" class="c">change before a dashboard or a report does.</text>
+  <rect x="806" y="456" width="364" height="120" rx="14" fill="#0f1a2c" stroke="#334155"/>
+  <rect x="806" y="456" width="4" height="120" rx="2" fill="#2dd4bf"/>
+  <text x="826" y="490" class="t">Agents that do not guess</text>
+  <text x="826" y="518" class="c">Agents answer only from certified definitions,</text>
+  <text x="826" y="538" class="c">checked against a golden set before release.</text>
+</svg>
